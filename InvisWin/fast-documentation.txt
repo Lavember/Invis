@@ -1,0 +1,10 @@
+Fast Fast Fast Let's Go
+
+
+> InvisWin.exe
+< Will cause an console to insert default Invis commands.
+
+> InvisWin.exe path C:\Bla\Bla\Bla Bla.inv
+< Will execute the desired script file.
+
+Easy, right?

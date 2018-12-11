@@ -1,0 +1,7 @@
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\bin\Debug\InvisWin.exe.config
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\bin\Debug\InvisWin.exe
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\bin\Debug\InvisWin.pdb
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\obj\Debug\InvisWin.csprojAssemblyReference.cache
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\obj\Debug\InvisWin.csproj.CoreCompileInputs.cache
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\obj\Debug\InvisWin.exe
+D:\PROGRAMAS QUE EU FIZ\Invis\Invis\InvisWin\InvisWin\obj\Debug\InvisWin.pdb
