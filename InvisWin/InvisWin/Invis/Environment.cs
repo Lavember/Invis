@@ -43,6 +43,7 @@ namespace InvisWin.Invis
             #region Load basic modules
 
             envCommands.Add(new modules.CmdTitle(this));
+            envCommands.Add(new modules.CmdPuts(this));
 
             #endregion
 

@@ -96,6 +96,14 @@ namespace InvisWin.Invis
                             Command execCmd = environment.envCommands.Find(item => item.cmd.ToLower() == fArgument.ToLower());
 
                             string[] arguments = scriptLines[line_index].Substring(execCmd.cmd.Length).Split(new string[] { "[]" }, StringSplitOptions.RemoveEmptyEntries);
+
+
+                            // Filter all the arguments with the String Parser.
+                            for(int args_index = 0; args_index < arguments.Length; args_index++)
+                            {
+                                arguments[args_index] = core.StringParser.ParseString(arguments[args_index], environment);
+                            }
+
                             string result = execCmd.init(arguments);
 
                             if(result == "A" || result == "Y" || result == "Z") // If any of these ocurr will cause an error
@@ -111,7 +119,7 @@ namespace InvisWin.Invis
                             environment.errors.Add(new Error("Error at line" + (line_index + 1).ToString()));
 
                             Program.ConsoleWrite("ERROR \\/\\/\\/ At line " + (line_index + 1).ToString() + "\n", ConsoleColor.Red);
-                            Program.ConsoleWrite(ex.Message + "\n" + " is the message", ConsoleColor.DarkRed);
+                            Program.ConsoleWrite(ex.Message + " is the message" + "\n", ConsoleColor.DarkRed);
                         }
 
                     }

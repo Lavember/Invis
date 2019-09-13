@@ -1,0 +1,14 @@
+TITLE - Changes the console title
+	1 Arg
+	[0] = The new console title
+PUTS - Writes into the console 
+	2 Arg
+	[0] = The text that will be shown to the console
+	[1] =  The text's color
+		RED
+		MAGENTA
+		BLUE
+		YELLOW
+		GREEN
+		WHITE
+		BLACK

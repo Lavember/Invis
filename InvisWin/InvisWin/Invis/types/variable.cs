@@ -8,21 +8,20 @@ namespace InvisWin.Invis.types
 {
     /// <summary>
     /// Contains a type and a value containing information.
+    /// Used only for system variables. For creating variables there are different types.
     /// </summary>
-    public class Variable
+    public interface Variable
     {
+        /// <summary>
+        /// The value that this variable holds. May be a string (text), int (number) or a bool.
+        /// </summary>
+        object value { get; set; }
+
         /// <summary>
         /// Parent environment of the variable
         /// </summary>
-        public Environment parentEnv;
+        Environment parentEnv { get; set; }
 
-        /// <summary>
-        /// Initializes the variable.
-        /// </summary>
-        public Variable(Environment env)
-        {
-            env = parentEnv;
-        }
-
+       
     }
 }

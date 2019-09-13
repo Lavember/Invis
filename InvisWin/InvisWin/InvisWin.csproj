@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Invis\core\StringParser.cs" />
+    <Compile Include="Invis\core\variables\VDate.cs" />
+    <Compile Include="Invis\core\variables\VString.cs" />
     <Compile Include="Invis\Environment.cs" />
     <Compile Include="Invis\InvInterpret.cs" />
+    <Compile Include="Invis\modules\CmdPuts.cs" />
     <Compile Include="Invis\modules\CmdTitle.cs" />
     <Compile Include="Invis\types\Command.cs" />
     <Compile Include="Invis\types\Error.cs" />
@@ -56,6 +60,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
